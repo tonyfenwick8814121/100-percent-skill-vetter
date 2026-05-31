@@ -4,6 +4,15 @@
   "description": "Skill-vetter preflight reports and install-path enforcement for OpenClaw skills/plugins.",
   "type": "module",
   "openclaw": {
-    "extensions": ["./index.mjs"]
+    "extensions": [
+      "./index.mjs"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.5.20",
+      "minGatewayVersion": ">=2026.5.20"
+    },
+    "build": {
+      "openclawVersion": "2026.5.26"
+    }
   }
 }

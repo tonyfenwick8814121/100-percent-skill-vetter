@@ -1,6 +1,6 @@
 {
   "name": "100-percent-skill-vetter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Skill-vetter preflight reports and install-path enforcement for OpenClaw skills/plugins.",
   "type": "module",
   "openclaw": {

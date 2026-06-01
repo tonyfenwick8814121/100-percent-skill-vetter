@@ -25,6 +25,14 @@ See [docs/COVERAGE.md](docs/COVERAGE.md).
 
 ## Install
 
+ClawHub:
+
+```bash
+clawhub package download 100-percent-skill-vetter
+```
+
+Local checkout:
+
 ```bash
 openclaw plugins install /path/to/100-percent-skill-vetter
 openclaw plugins enable 100-percent-skill-vetter
@@ -35,6 +43,12 @@ After installing, restart the OpenClaw gateway so runtime hooks load.
 ## 中文说明
 
 `100% Skill Vetter` 是一个 OpenClaw 技能/插件安装前审查插件。它会在 skill/plugin 真正激活或使用前生成审查报告；发现 critical 风险时直接阻断安装；同时通过 `before_tool_call` 拦截 agent 试图调用安装命令或内部安装工具的行为。
+
+可在 ClawHub 搜索：
+
+```text
+100-percent-skill-vetter
+```
 
 报告位置：
 
